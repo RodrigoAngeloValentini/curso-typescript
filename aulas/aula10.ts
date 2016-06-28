@@ -1,4 +1,12 @@
-///<reference path="Color.ts"/>
+module ColorModule{
+    export class Color{
+        name:string;
+        code:string;
+        getColor():string{
+            return this.code;
+        }
+    }
+}
 
 module ColorModule{
     var red = new Color();
